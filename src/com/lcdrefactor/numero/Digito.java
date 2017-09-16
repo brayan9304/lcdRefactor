@@ -1,3 +1,8 @@
+package com.lcdrefactor.numero;
+
+import com.lcdrefactor.controlador.Controller;
+import com.lcdrefactor.main.ImpresorLCD;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

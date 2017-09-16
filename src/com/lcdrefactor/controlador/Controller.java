@@ -1,3 +1,9 @@
+package com.lcdrefactor.controlador;
+
+import com.lcdrefactor.main.ImpresorLCD;
+import com.lcdrefactor.numero.Digito;
+import com.lcdrefactor.segmento.Segmento;
+
 public class Controller {
 
     private Segmento segmento;

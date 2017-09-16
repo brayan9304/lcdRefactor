@@ -1,3 +1,9 @@
+package com.lcdrefactor.segmento;
+
+import com.lcdrefactor.controlador.Controller;
+import com.lcdrefactor.main.ImpresorLCD;
+
+
 import java.util.Iterator;
 
 public class Segmento extends ImpresorLCD {
@@ -11,10 +17,10 @@ public class Segmento extends ImpresorLCD {
     private final int[] pf5;
 
 
-    static final String CARACTER_VERTICAL = "|";
-    static final String CARACTER_HORIZONTAL = "-";
-    static final String POSICION_X = "X";
-    static final String POSICION_Y = "Y";
+    public static final String CARACTER_VERTICAL = "|";
+    public static final String CARACTER_HORIZONTAL = "-";
+    public static final String POSICION_X = "X";
+    public static final String POSICION_Y = "Y";
 
     public Segmento() {
         // Inicializa variables
@@ -24,6 +30,7 @@ public class Segmento extends ImpresorLCD {
         this.pf4 = new int[2];
         this.pf5 = new int[2];
     }
+
 
     public void calcularPuntosFijos(int pivotX, int espacio) {
         this.pf1[0] = 0;
